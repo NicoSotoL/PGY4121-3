@@ -1,0 +1,13 @@
+<ion-header class="ion-text-center">
+  <ion-toolbar >
+    <ion-title *ngIf="dataUser"> 
+      <h1>Home Alumno</h1>
+      <h3 #titulo>Bienvenido: {{ dataUser.nombre }}</h3>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <app-scanner class="ion-text-center"></app-scanner>
+  <ion-button expand="full" (click)="logout()">Salir</ion-button>
+</ion-content>

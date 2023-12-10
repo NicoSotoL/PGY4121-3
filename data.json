@@ -12,12 +12,12 @@
           "alumnos": [
             {
               "id": 1,
-              "user": "ni.sabando",
+              "user": "ni.sab",
               "nombre": "Nicolas Sabando"
             },
             {
               "id": 2,
-              "user": "nico.soto",
+              "user": "ni.sot",
               "nombre": "Nicolas Soto"
             }
           ]
@@ -30,7 +30,7 @@
           "alumnos": [
             {
               "id": 1,
-              "user": "ni.sabando",
+              "user": "ni.sab",
               "nombre": "Nicolas Sabando"
             }
           ]
@@ -43,7 +43,7 @@
           "alumnos": [
             {
               "id": 2,
-              "user": "nico.soto",
+              "user": "ni.sot",
               "nombre": "Nicolas Soto"
             }
           ]
@@ -66,15 +66,15 @@
       "password": "1234",
       "nombre": "Nicolas Sabando",
       "perfil": 2,
-      "correo": "ni.sabando@duocuc.cl"
+      "correo": "ni.sab@duocuc.cl"
     },
     {
       "id": 3,
-      "user": "nico.sot",
+      "user": "ni.sot",
       "password": "1234",
       "nombre": "Nicolas Soto",
       "perfil": 2,
-      "correo": "nico.soto@duocuc.cl"
+      "correo": "ni.sot@duocuc.cl"
     }
   ],
   "clases": [

@@ -25,5 +25,4 @@ describe('HomealumnoPage', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  // Agrega más pruebas según sea necesario para cubrir tus funciones y casos de uso.
 });

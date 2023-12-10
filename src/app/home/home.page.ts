@@ -42,7 +42,7 @@ export class HomePage {
     await this.initializeStorage();
     const isAuthenticated = await this.userService.getIsAuthenticated();
     if (!isAuthenticated) {
-      this.router.navigate(['/login']);
+      this.router.navigate(['']);
     }
 
     this.user = await this.userService.getCurrentUser();

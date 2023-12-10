@@ -10,7 +10,7 @@ export class UserService {
 
   httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }) }
   
-  private apiUrl = 'http://192.168.4.21:5000'; // Ruta de la API
+  private apiUrl = 'http://192.168.4.21:5000';
 
   constructor(
     private http: HttpClient,

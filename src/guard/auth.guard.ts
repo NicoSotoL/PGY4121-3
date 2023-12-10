@@ -13,14 +13,13 @@ export class AuthGuard {
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
   ): Promise<boolean | UrlTree> {
-    await this.userService.initializeStorage(); // Asegúrate de que la base de datos se haya creado
+    await this.userService.initializeStorage();
 
     const isAuthenticated = await this.userService.getIsAuthenticated();
     
     if (isAuthenticated) {
-      return true; // El usuario está autenticado y puede acceder a la ruta
+      return true; //
     } else {
-      // Redirige al usuario a la página de inicio de sesión si no está autenticado
       return this.router.parseUrl('/login');
     }
   }

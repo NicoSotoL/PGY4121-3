@@ -53,12 +53,10 @@ export class LoginPage {
   
         if (userProfile !== null) {
           if (userProfile === 1) {
-            // Usuario con perfil 1 (docente)
             this.presentToast('Bienvenido');
             await this.playLoginAnimation();
             this.router.navigate(['/home']);
           } else if (userProfile === 2) {
-            // Usuario con perfil 2 (alumno)
             this.presentToast('Bienvenido Alumno');
             await this.playLoginAnimation();
             this.router.navigate(['/homealumno']);
